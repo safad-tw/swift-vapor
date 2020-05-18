@@ -1,0 +1,9 @@
+
+#set("content") {
+<h1>dishes</h1>
+#for(dish in dishes){
+<p>#(dish.name)</p>
+}
+}
+
+#embed("base")
